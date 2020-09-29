@@ -1,7 +1,12 @@
 name = "MarkovChains"
-uuid = "021c356b-e0a1-4f48-ae7f-990f5eabe724"
+uuid = "006c4929-8afa-4b8c-b9b1-ffa913757d23"
 authors = ["Michele Fornino <mfornino@mit.edu>"]
-version = "0.1.0"
+version = "0.1.3"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [compat]
 julia = "1.1"
